@@ -8,33 +8,61 @@ section:first-child{
 
 }
 
+.buttonText {
+    color: black;
+    font-size: 20px;
+}
 
+body, html {
+    height: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*/////////////////// KOD FÖR STARTMENYN*/
-
+.bottom{
+    /*position: fixed;*/
+    bottom:0;
+}
 .bg {
     background: url(img/background.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    /*-o-background-size: cover;*/
     background-size: cover;
+
 }
 
-.buttonText {
-    color: black;
-    font-size: 20px;
+.cartSize{
+    height: 50px;
+    width:60px;
+}
+
+.center{
+    text-align:center;
+}
+
+.buttonBox {
+    background-color: darkolivegreen;
+
+}
+
+
+
+.headerText {
+    font-size: 40px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.iconSize{
+    height:30px;
+    width:30px;
+}
+.iconSizeBigger{
+    height:80px;
+    width:80px;
+}
+
+.flexBoxContainer{
+
 }
 
 .tableWidth1{
@@ -49,14 +77,86 @@ section:first-child{
     width:10%;
 }
 
+.fitContain{
+    object-fit: contain;
+    width:100%;
+    height:100%;
+}
+
+.pixels{
+    height:20px;
+}
+
+.middle{
+    right: 50%;
+}
+
+.pictureSize{
+    height:200px;
+    width:200px;
+}
+.pictureSizeMain{
+    height:500px;
+    width:400px;
+    padding-bottom:400px;
+}
+.picturePosMain{
+    float: right;
+    margin-right: 700px;
+}
+
+.remove_{
+    text-decoration: none;
+}
+
+.tableIconsCenter{
+
+    margin:0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableIconsRight{
+
+    margin:0 auto;
+    margin-left: auto;
+    margin-right: 100px;
+}
+.text30px{
+    font-size: 30px;
+}
+
+
 .textBox {
     height: 50px;
     font-size: 12pt;
     width: 350px;
 }
-
-
-.buttonBox {
-    background-color: darkolivegreen;
-
+.textBackgroundBox{
+    padding:6px;
+    background-color: blue;
+    border:black 2px solid;
+    width: 330px;
 }
+
+
+
+/*////////////////////// LINK COLORS /////////////////*/
+
+a:link {
+    color: darkgreen;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: indianred;
+}
+
+a:active {
+    color: blue;
+}
+
+
+
