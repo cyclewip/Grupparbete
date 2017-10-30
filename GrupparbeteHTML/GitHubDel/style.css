@@ -60,3 +60,27 @@ section:first-child{
     background-color: darkolivegreen;
 
 }
+
+.rad:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.kolumn {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+#betala{
+    text-align: left;
+    padding-bottom: 30px;
+}
+#frakta{
+    text-align: left;
+}
+#skicka{
+    padding-top: 30px;
+    text-align: left;
+    height: 200px;
+    width: 200px;
+}
