@@ -23,11 +23,29 @@ section:first-child{
 ul{
   list-style: none;
 }
-figcaption{
+.f1{
   display: run-in;
 }
 #kontakt a{
   text-decoration: none;
+}
+.blog{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.blog p{
+  text-align: left;
+}
+.blog h3{
+  margin-bottom: 0;
+}
+.blog h6{
+  margin-top: 0;
+  margin-bottom: auto;
+}
+.blog img{
+  border: 5px solid #fff;
 }
 
 
