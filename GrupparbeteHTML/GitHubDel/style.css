@@ -1,34 +1,31 @@
-main{
-
+body{
+    font-family:"Courier New";
 }
-section:nth-child(2){
-
+.iconSizeBigger {
+    height: 80px;
+    width: 80px;
 }
-section:first-child{
+a:link {
+    color: black;
+}
 
+a:hover {
+    color: blue;
 }
 
 .huv{
-  width: 23%;
-  display: inline-block;
+  width: 20%;
+  display: inline-table;
   text-align: center;
-  list-style: none;
+}
 
-}
-.lit first-child{
-  border:5px solid black;
-  background-color: #fff;
-  list-style: none;
-}
-ul{
+.kontakt{
   list-style: none;
 }
 .f1{
   display: run-in;
 }
-#kontakt a{
-  text-decoration: none;
-}
+
 .blog{
   text-align: center;
   width: 60%;
@@ -47,31 +44,6 @@ ul{
 .blog img{
   border: 5px solid #fff;
 }
-
-
-
-@media (max-width:768px) and (min-width:501px){
-  #kontakt li{
-    display:inline-flex;
-    width: auto;
-  }
-}
-  @media (max-width:500px) {
-  #kontakt img{
-    display: none;
-  }
-  #kontakt li{
-    display: inline;
-    border:none;
-    background-color: none;
-  }
-}
-
-
-
-
-
-
 
 
 
@@ -109,6 +81,30 @@ ul{
 
 
 .buttonBox {
-    background-color: darkolivegreen;
+    background-color:gainsboro;
 
 }
+@media (max-width: 768px){
+  .buttonText{
+        display: flex;
+        flex-direction: column;
+    }
+    .tableWidth1{
+        width:100%;
+    }
+
+    .tableWidth2{
+        width:100%;
+    }
+
+    .tableWidth3{
+        width:100%;
+        height: 60px;
+    }
+
+      .kontakt li{
+        display:inline;
+        width: auto;
+        border:none;
+
+    }
