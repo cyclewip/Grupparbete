@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Checkout</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -17,22 +17,21 @@
         <section>
             <table cellspacing="10px" width="100%" border="10">
                 <tr class="buttonText">
-                    <th class="buttonBox tableWidth1">
-                        <p> Vår elektroniksida</p>
-                        <!--<a href="produkter.html"><p>Vår elektroniksida</p></a>-->
-                    </th>
-                    <th class="buttonBox tableWidth2">
+                    <td class="buttonBox tableWidth1">
+                        <a href="produkter.html"><p>Vår elektroniksida</p></a>
+                    </td>
+                    <td class="buttonBox tableWidth2">
                         <form>
                             <input class="textBox fitContain" placeholder="Sök:" pattern="[A-Za-z - _]*" required
                                    minlength="3" type="text"><br>
                         </form>
-                    </th>
+                    </td>
 
-                    <th width="20%" class="buttonBox tableWidth3">
+                    <td width="20%" class="buttonBox tableWidth3">
                         <!--<a href="checkout.html">Checkout:</a>-->
                         <a href="checkout.html">
                             <img class="cartSize" src="img/kundvagn.jpg" alt="Checkout"></a>
-                    </th>
+                    </td>
                 </tr>
 
             </table>
@@ -47,31 +46,31 @@
                 <h3>Personliga uppgifter</h3>
                 <div class="uppgift">
                     <pre><label>Förnamn</label></pre>
-                    <input type="text" pattern="[A-z]">
+                    <input type="text" pattern="[A-z]" class="input">
                 </div>
                 <div class="uppgift">
                     <pre><label>Efternamn</label></pre>
-                    <input type="text" pattern="[A-z]">
+                    <input type="text" pattern="[A-z]" class="input">
                 </div>
                 <div class="uppgift">
                     <pre><label>Adress</label></pre>
-                    <input type="text" pattern="[A-z|0-9]">
+                    <input type="text" pattern="[A-z|0-9]" class="input">
                 </div>
                 <div class="uppgift">
                     <pre><label>Postkod</label></pre>
-                    <input type="text" pattern="[0-9]">
+                    <input type="text" pattern="[0-9]" class="input">
                 </div>
                 <div class="uppgift">
                     <pre><label>Ort</label></pre>
-                    <input type="text" pattern="[A-z]">
+                    <input type="text" pattern="[A-z]"class="input">
                 </div>
                 <div class="uppgift">
                     <pre><label>Land</label></pre>
-                    <input type="text" pattern="[A-z]">
+                    <input type="text" pattern="[A-z]" class="input">
                 </div>
                 <div class="uppgift">
                     <pre><label>Email</label></pre>
-                    <input type="email">
+                    <input type="email" class="input">
                 </div>
             </form>
         </div>
@@ -79,36 +78,40 @@
             <form>
                 <div id="betala">
                     <h3>Betalsätt</h3>
-                    <div>
+                    <div class="div1">
                         <input type="radio" name="betalning" >
-                        <label>Kort</label>
+                        <label>Kort<img src="img/credit-card-logos.png" id="kort-foto" width="100" height="25"></label>
                     </div>
-                    <div>
+                    <div class="div1">
                         <input type="radio" name="betalning" >
                         <label>Faktura</label>
                     </div>
-                    <div>
+                    <div class="div1">
                         <input type="radio" name="betalning">
                         <label>Postförskott</label>
+                    </div>
+                    <div class="div1">
+                        <input type="radio" name="betalning">
+                        <label>Swish<img src="img/swish-logo.png" id="swish-foto" width="40" height="25"></label>
                     </div>
                 </div>
                 <div id="frakta">
                     <h3>Fraktsätt</h3>
-                    <div>
+                    <div class="div1">
                         <input type="radio" name="frakt">
                         <label>Standard</label>
                     </div>
-                    <div>
+                    <div class="div1">
                         <input type="radio" name="frakt">
                         <label>Express</label>
                     </div>
-                    <div>
+                    <div class="div1">
                         <input type="radio" name="frakt">
                         <label>Hemleverans</label>
                     </div>
                 </div>
                 <div id="skicka">
-                    <input type="submit">
+                    <input type="submit" id="submit" value="Bekräfta" >
                 </div>
             </form>
         </div>
@@ -117,8 +120,6 @@
 </main>
 
 
-<footer>
 
-</footer>
 </body>
 </html>
