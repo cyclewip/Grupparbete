@@ -70,6 +70,7 @@ section:first-child{
     float: left;
     width: 50%;
     text-align: center;
+    padding-bottom: 50px;
 }
 #betala{
     text-align: left;
@@ -98,5 +99,34 @@ section:first-child{
     #skicka{
         padding-left: 100px;
     }
+    #footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .buttonText{
+        display: flex;
+        flex-direction: column;
+    }
+    .tableWidth1{
+        width:100%;
+    }
 
+    .tableWidth2{
+        width:100%;
+    }
+
+    .tableWidth3{
+        width:100%;
+    }
+
+}
+#footer{
+    margin-top: 30px;
+    padding-top: 150px;
+    border-top-style: double;
+}
+.ft{
+    padding-left: 50px;
+    padding-bottom: 50px;
 }
