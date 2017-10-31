@@ -28,7 +28,6 @@ body, html {
 }
 
 .bottom {
-    /*position: fixed;*/
     bottom: 0;
 }
 
@@ -36,9 +35,7 @@ body, html {
     background: url(img/background.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    /*-o-background-size: cover;*/
     background-size: cover;
-
 }
 
 .cartSize {
@@ -51,14 +48,13 @@ body, html {
 }
 
 .buttonBox {
-    background-color: darkolivegreen;
-
+    background-color: gainsboro;
 }
 
 .headerText {
     font-size: 40px;
     font-weight: bold;
-    color: dodgerblue;
+    color: blue;
 }
 
 .iconSize {
@@ -71,12 +67,7 @@ body, html {
     width: 80px;
 }
 
-.imgSale {
-    padding-left: 2%;
-    width: 100%;
-    height: 100%;
 
-}
 
 .tableWidth1 {
     width: 60%;
@@ -102,10 +93,7 @@ body, html {
 
 }
 
-.leftFooter{
-    width:30%;
 
-}
 
 @media(max-width: 480px) {
     tr {
@@ -119,6 +107,11 @@ footer {
     width: 100%;
     padding-top: 50px;
 }
+
+.leftFooter{
+    width:30%;
+
+}
 .footerRight {
     width:30%;
 }
@@ -127,47 +120,45 @@ footer {
     right: 50%;
 }
 
-.width40{
-    width:40%;
-}
+
 
 .pictureSize {
     height: 200px;
     width: 200px;
 }
+.mainPictureSize{
+    height: 300px;
+    width: 300px;
+}
 
-.primarySale {
+
+/*//////////////////// FOR PRODUCT PICTURE IN MAIN ////////////////////*/
+.flexBoxImage {
     padding-top: 2% ;
     width:100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
-
-.primarySale div{
-    width:30%;
+.imgSalePaddingLeft {
+    padding-left: 2%;
+    width: 100%;
+    height: 100%;
 }
+imageSalePaddingRight{
+    padding-right: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+/*//////////////////// FOR PRODUCT PICTURE IN MAIN ////////////////////*/
 
 .remove_ {
     text-decoration: none;
 }
 
-.tableIconsCenter {
-
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.tableIconsRight {
-
-    margin: 0 auto;
-    margin-left: auto;
-    margin-right: 100px;
-}
-
-.text30px {
-    font-size: 30px;
+.text20px {
+    font-size: 20px;
 }
 
 .textBox {
@@ -178,7 +169,7 @@ footer {
 
 .textBackgroundBox {
     padding: 6px;
-    background-color: blue;
+    background-color: white;
     border: black 2px solid;
     width: 330px;
 }
@@ -186,18 +177,10 @@ footer {
 /*////////////////////// LINK COLORS /////////////////*/
 
 a:link {
-    color: darkgreen;
-}
-
-a:visited {
-    color: blue;
+    color: black;
 }
 
 a:hover {
-    color: indianred;
-}
-
-a:active {
     color: blue;
 }
 
@@ -205,7 +188,9 @@ a:active {
 
 
 
-
+.wholePageFont{
+    font-family:"Courier New";
+}
 
 /*////////////////////// CHANGE HEADER TO FLEXIBLE /////////////////*/
 @media (max-width: 768px){
