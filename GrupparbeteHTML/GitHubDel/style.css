@@ -62,11 +62,11 @@ ul {
    list-style-type: none;
 }
 
-nav {
+#produktsida {
 text-align: center;
 }
 
-nav li {
+#produktsida li {
    background-color: grey;
    padding: 10px 30px;
    display: inline-block;
@@ -74,7 +74,7 @@ nav li {
 
 }
 
-figure {
+#varor figure {
    background-color: #F4FAFA;
    display: inline-block;
    padding: 10px 30px;
@@ -88,14 +88,8 @@ h1 {
    
    
 }
-
-* {
-margin: 0;
-padding: 0;
-}
-
 @media (max-width: 768px){
-nav ul li{
+#produktsida ul li{
 float:left;
 width: 100%;
 
@@ -120,11 +114,11 @@ flex-direction: column;
 
 }
 
-figure {
+#varor figure {
 
 margin: auto;
 }
-img{
+#varor figure img{
 display: inline;
 
 }
