@@ -1,26 +1,3 @@
-main{
-
-}
-section:nth-child(2){
-
-}
-section:first-child{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*/////////////////// KOD FÖR STARTMENYN*/
@@ -30,6 +7,15 @@ section:first-child{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    font-family:"Courier New";
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: blue;
 }
 
 .buttonText {
@@ -57,7 +43,7 @@ section:first-child{
 
 
 .buttonBox {
-    background-color: darkolivegreen;
+    background-color: gainsboro;
 
 }
 
@@ -72,6 +58,9 @@ section:first-child{
     text-align: center;
     padding-bottom: 50px;
 }
+.uppgift{
+    font-size: 15px;
+}
 #betala{
     text-align: left;
     padding-bottom: 30px;
@@ -82,6 +71,29 @@ section:first-child{
 #skicka{
     padding-top: 30px;
     text-align: left;
+}
+#kort-foto{
+    padding-left: 20px;
+}
+#swish-foto{
+    padding-left: 20px;
+}
+.div1{
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-size: 16px;
+}
+.input{
+    border-color: black;
+}
+#submit{
+    width: 100px;
+    height: 35px;
+    border-color: black;
+}
+.cartSize {
+    height: 80px;
+    width: 80px;
 }
 @media (max-width: 768px) {
     .rad{
@@ -98,12 +110,9 @@ section:first-child{
     }
     #skicka{
         padding-left: 100px;
+
     }
-    #footer{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
+
     .buttonText{
         display: flex;
         flex-direction: column;
@@ -118,15 +127,7 @@ section:first-child{
 
     .tableWidth3{
         width:100%;
+        height: 50px;
     }
 
-}
-#footer{
-    margin-top: 30px;
-    padding-top: 150px;
-    border-top-style: double;
-}
-.ft{
-    padding-left: 50px;
-    padding-bottom: 50px;
 }
