@@ -1,7 +1,6 @@
 main {
 
 }
-
 section:nth-child(2) {
 
 }
@@ -9,7 +8,6 @@ section:nth-child(2) {
 section:first-child {
 
 }
-
 .spaces200px {
     margin-bottom: 200px;
 }
