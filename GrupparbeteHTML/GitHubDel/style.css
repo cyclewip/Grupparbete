@@ -54,25 +54,30 @@ font-family: courier;
 
 }
 
-section ul li{
+#produktsida section ul li{
 padding: 0;
 }
 
-ul {
+#produktsida ul {
    list-style-type: none;
+
 }
 
 #produktsida {
 text-align: center;
+
 }
 
-#produktsida li {
+#produktsida ul li {
    background-color: grey;
    padding: 10px 30px;
    display: inline-block;
    padding: 10px 20px;
 
+
 }
+
+
 
 #varor figure {
    background-color: #F4FAFA;
@@ -83,7 +88,7 @@ text-align: center;
    border: 2px solid grey;
 }
 
-h1 {
+#produksida, #varor h1 {
    text-align: center;
    
    
@@ -118,8 +123,9 @@ flex-direction: column;
 
 margin: auto;
 }
-#varor figure img{
-display: inline;
+#varor img{
+display: flex;
+flex-direction: column;
 
 }
 }
