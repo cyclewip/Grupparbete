@@ -157,8 +157,8 @@ footer {
 }
 
 .leftFooter {
-    width: 30%;
-
+    width: 15%;
+    padding-left: 7%;
 }
 
 .footerRight {
@@ -178,6 +178,7 @@ footer {
     height: 300px;
     width: 300px;
 }
+
 .productPictureSize {
     height: 400px;
     width: 300px;
@@ -192,11 +193,17 @@ footer {
     flex-direction: row;
 }
 
-/*.flexBoxProducts{*/
-    /*display: flex;*/
-    /**/
+/*.upperRightContactImage{*/
+    /*display: inline;*/
 /*}*/
 
+.aboutPaddingRight {
+    padding-right: 2%;
+}
+
+.contactPaddingLeft{
+    padding-right: 10%;
+}
 
 .imgSalePaddingLeft {
     padding-left: 2%;
@@ -218,6 +225,10 @@ imageSalePaddingRight {
 
 .text20px {
     font-size: 20px;
+}
+
+.text40px {
+    font-size: 40px;
 }
 
 .textBox {
@@ -301,7 +312,7 @@ imageSalePaddingRight {
 
 /*/////////////////////////////// HENRIK*/
 
-#produktsida section ul li{
+#produktsida section ul li {
     padding: 0;
 }
 
@@ -321,10 +332,7 @@ imageSalePaddingRight {
     display: inline-block;
     padding: 10px 20px;
 
-
 }
-
-
 
 #varor figure {
     background-color: #F4FAFA;
@@ -339,15 +347,13 @@ imageSalePaddingRight {
 #produksida, .varor h1 {
     text-align: center;
 
-
 }
+
 button {
     font-size: 16px;
 }
 
 /*/////////////////////////////// HENRIK*/
-
-
 
 /*/////////////////////////////// LIDIA*/
 .rad:after {
@@ -355,54 +361,67 @@ button {
     display: table;
     clear: both;
 }
+
 .kolumn {
     float: left;
     width: 50%;
     text-align: center;
     padding-bottom: 50px;
 }
-.uppgift{
+
+.uppgift {
     font-size: 15px;
 }
-#betala{
+
+#betala {
     text-align: left;
     padding-bottom: 30px;
 }
-#frakta{
+
+#frakta {
     text-align: left;
     padding-bottom: 30px;
 }
-#skicka{
+
+#skicka {
     padding-top: 30px;
     text-align: left;
 }
-#kod{
+
+#kod {
     text-align: left;
     padding-bottom: 20px;
 }
-#kort-foto{
+
+#kort-foto {
     padding-left: 20px;
 }
-#swish-foto{
+
+#swish-foto {
     padding-left: 20px;
 }
-.div1{
+
+.div1 {
     padding-bottom: 10px;
     padding-top: 5px;
     font-size: 16px;
 }
-.input{
+
+.input {
     border-color: black;
 }
-#submit{
+
+#submit {
     width: 100px;
     height: 35px;
     border-color: black;
 }
+
 .cartSize {
     height: 80px;
     width: 80px;
 }
+
 @media (max-width: 768px) {
     .rad {
         width: 100%;
@@ -436,4 +455,5 @@ button {
 
     }
 }
+
 /*/////////////////////////////// LIDIA*/
