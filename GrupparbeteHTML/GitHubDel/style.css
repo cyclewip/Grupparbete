@@ -54,21 +54,21 @@ font-family: courier;
 
 }
 
-#produktsida section ul li{
+.produktsida section ul li{
 padding: 0;
 }
 
-#produktsida ul {
+.produktsida ul {
    list-style-type: none;
 
 }
 
-#produktsida {
+.produktsida {
 text-align: center;
 
 }
 
-#produktsida ul li {
+.produktsida ul li {
    background-color: grey;
    padding: 10px 30px;
    display: inline-block;
@@ -79,7 +79,7 @@ text-align: center;
 
 
 
-#varor figure {
+.varor figure {
    background-color: #F4FAFA;
    display: inline-block;
    padding: 10px 30px;
@@ -88,13 +88,13 @@ text-align: center;
    border: 2px solid grey;
 }
 
-#produksida, #varor h1 {
+.produksida, #varor h1 {
    text-align: center;
    
    
 }
 @media (max-width: 768px){
-#produktsida ul li{
+.produktsida ul li{
 float:left;
 width: 100%;
 
@@ -119,11 +119,11 @@ flex-direction: column;
 
 }
 
-#varor figure {
+.varor figure {
 
 margin: auto;
 }
-#varor img{
+.varor img{
 display: flex;
 flex-direction: column;
 
