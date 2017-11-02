@@ -67,10 +67,15 @@ a:hover {
 }
 #frakta{
     text-align: left;
+    padding-bottom: 30px;
 }
 #skicka{
     padding-top: 30px;
     text-align: left;
+}
+#kod{
+    text-align: left;
+    padding-bottom: 20px;
 }
 #kort-foto{
     padding-left: 20px;

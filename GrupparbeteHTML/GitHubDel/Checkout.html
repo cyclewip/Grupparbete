@@ -72,6 +72,11 @@
                     <pre><label>Email</label></pre>
                     <input type="email" class="input">
                 </div>
+                <div class="uppgift">
+                    <pre><label>Telefon</label></pre>
+                    <input type="text" class="input" pattern="[0-9]" minlength="10"
+                    maxlength="11">
+                </div>
             </form>
         </div>
         <div class="kolumn">
@@ -92,7 +97,7 @@
                     </div>
                     <div class="div1">
                         <input type="radio" name="betalning">
-                        <label>Swish<img src="img/swish-logo.png" id="swish-foto" width="40" height="25"></label>
+                        <label>Swish<img src="img/swish.jpg" id="swish-foto" width="40" height="25"></label>
                     </div>
                 </div>
                 <div id="frakta">
@@ -109,6 +114,11 @@
                         <input type="radio" name="frakt">
                         <label>Hemleverans</label>
                     </div>
+
+                </div>
+                <div class="uppgift" id="kod">
+                    <pre><label>Rabbatkod</label></pre>
+                    <input type="text" minlength="5" maxlength="5" class="input" pattern="[0-9]" title="Koden består av 5 siffror">
                 </div>
                 <div id="skicka">
                     <input type="submit" id="submit" value="Bekräfta" >
