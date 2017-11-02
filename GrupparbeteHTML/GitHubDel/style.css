@@ -1,178 +1,24 @@
-main {
+
 
 }
 section:nth-child(2) {
 
 }
-
-section:first-child {
-
-}
 .spaces200px {
     margin-bottom: 200px;
 }
+/*////////////////// KOD FÖR STARTMENYN*/
 
-.spaces300px {
-    margin-bottom: 300px;
+body {
+font-family: courier;
 }
-
-.buttonText {
-    color: black;
-    font-size: 20px;
-}
-
-body, html {
-    height: 100%;
-}
-
-.bottom {
-    bottom: 0;
-}
-
 .bg {
     background: url(img/background.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    font-family:"Courier New";
 }
-
-.cartSize {
-    height: 50px;
-    width: 60px;
-}
-
-.center {
-    text-align: center;
-}
-
-.buttonBox {
-    background-color: gainsboro;
-}
-
-.headerText {
-    font-size: 40px;
-    font-weight: bold;
-    color: blue;
-}
-
-.iconSize {
-    height: 30px;
-    width: 30px;
-}
-
-.iconSizeBigger {
-    height: 80px;
-    width: 80px;
-}
-
-
-
-.tableWidth1 {
-    width: 60%;
-}
-
-.tableWidth2 {
-    width: 10%;
-}
-
-.tableWidth3 {
-    width: 10%;
-}
-
-.fitContain {
-    object-fit: contain;
-    width: 100%;
-    height: 100%;
-}
-
-.iconPosition {
-    display: flex;
-    justify-content: center;
-
-}
-
-
-
-@media(max-width: 480px) {
-    tr {
-        display: table-column;
-    }
-}
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 50px;
-}
-
-.leftFooter{
-    width:30%;
-
-}
-.footerRight {
-    width:30%;
-}
-
-.middle {
-    right: 50%;
-}
-
-
-
-.pictureSize {
-    height: 200px;
-    width: 200px;
-}
-.mainPictureSize{
-    height: 300px;
-    width: 300px;
-}
-
-
-/*//////////////////// FOR PRODUCT PICTURE IN MAIN ////////////////////*/
-.flexBoxImage {
-    padding-top: 2% ;
-    width:100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-.imgSalePaddingLeft {
-    padding-left: 2%;
-    width: 100%;
-    height: 100%;
-}
-imageSalePaddingRight{
-    padding-right: 0%;
-    width: 100%;
-    height: 100%;
-}
-
-/*//////////////////// FOR PRODUCT PICTURE IN MAIN ////////////////////*/
-
-.remove_ {
-    text-decoration: none;
-}
-
-.text20px {
-    font-size: 20px;
-}
-
-.textBox {
-    height: 50px;
-    font-size: 12pt;
-    width: 350px;
-}
-
-.textBackgroundBox {
-    padding: 6px;
-    background-color: white;
-    border: black 2px solid;
-    width: 330px;
-}
-
-/*////////////////////// LINK COLORS /////////////////*/
 
 a:link {
     color: black;
@@ -182,26 +28,141 @@ a:hover {
     color: blue;
 }
 
-
-
-
-
-.wholePageFont{
-    font-family:"Courier New";
+.buttonText {
+    color: black;
+    font-size: 20px;
 }
 
-/*////////////////////// CHANGE HEADER TO FLEXIBLE /////////////////*/
+.tableWidth1{
+    width:60%;
+}
+
+.tableWidth2{
+    width:10%;
+}
+
+.tableWidth3{
+    width:10%;
+}
+
+.textBox {
+    height: 50px;
+    font-size: 12pt;
+    width: 350px;
+}
+
+
+.buttonBox {
+    background-color: gainsboro;
+
+}
+
+#produktsida section ul li{
+padding: 0;
+}
+
+#produktsida ul {
+   list-style-type: none;
+
+}
+
+#produktsida {
+text-align: center;
+
+}
+
+#produktsida ul li {
+   background-color: grey;
+   padding: 10px 30px;
+   display: inline-block;
+   padding: 10px 20px;
+
+}
+
+
+
+#varor figure {
+   background-color: #F4FAFA;
+   display: inline-block;
+   padding: 10px 30px;
+   margin-top: 10px;
+   margin-top: auto;
+   border: 2px solid grey;
+}
+
+#produksida, #varor h1 {
+   text-align: center;
+
+
+}
 @media (max-width: 768px){
-.buttonText{
-    display: flex;
-    flex-direction: column;
+#produktsida ul li{
+float:left;
+width: 100%;
+
 }
+
+.buttonText{
+display: flex;
+flex-direction: column;
+}
+
 .tableWidth1{
     width:100%;
 }
 
 .tableWidth2{
     width:100%;
+}
+}
+.buttonBox {
+    background-color:gainsboro;
+
+}
+@media (max-width: 768px){
+  .buttonText{
+        display: flex;
+        flex-direction: column;
+    }
+    .tableWidth1{
+        width:100%;
+    }
+
+    .tableWidth2{
+        width:100%;
+    }
+
+    .tableWidth3{
+        width:100%;
+        height: 60px;
+    }
+
+      .kontakt li{
+        display:inline;
+        width: auto;
+        border:none;
+
+    }
+}
+
+
+a:link {
+    color: black;
+}
+
+}
+
+#varor figure {
+
+
+.wholePageFont{
+    font-family:"Courier New";
+}
+#varor img{
+display: flex;
+flex-direction: column;
+
+}
 }
 
 .tableWidth3{
