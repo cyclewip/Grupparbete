@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="bg">
+<main>
+    <header>
+
+    </header>
+
+    <section>
+
+        <section>
+            <table cellspacing="10px" width="100%" border="10">
+                <tr class="buttonText">
+                    <td class="buttonBox tableWidth1">
+                        <a href="produkter.html"><p>Vår elektroniksida</p></a>
+                    </td>
+                    <td class="buttonBox tableWidth2">
+                        <form>
+                            <input class="textBox fitContain" placeholder="Sök:" pattern="[A-Za-z - _]*" required
+                                   minlength="3" type="text"><br>
+                        </form>
+                    </td>
+
+                    <td width="20%" class="buttonBox tableWidth3">
+                        <!--<a href="checkout.html">Checkout:</a>-->
+                        <a href="checkout.html">
+                            <img class="cartSize" src="img/kundvagn.jpg" alt="Checkout"></a>
+                    </td>
+                </tr>
+
+            </table>
+        </section>
+
+
+    </section>
+
+    <div class="rad">
+        <div class="kolumn">
+            <form>
+                <h3>Personliga uppgifter</h3>
+                <div class="uppgift">
+                    <pre><label>Förnamn</label></pre>
+                    <input type="text" pattern="[A-z]" class="input">
+                </div>
+                <div class="uppgift">
+                    <pre><label>Efternamn</label></pre>
+                    <input type="text" pattern="[A-z]" class="input">
+                </div>
+                <div class="uppgift">
+                    <pre><label>Adress</label></pre>
+                    <input type="text" pattern="[A-z|0-9]" class="input">
+                </div>
+                <div class="uppgift">
+                    <pre><label>Postkod</label></pre>
+                    <input type="text" pattern="[0-9]" class="input">
+                </div>
+                <div class="uppgift">
+                    <pre><label>Ort</label></pre>
+                    <input type="text" pattern="[A-z]"class="input">
+                </div>
+                <div class="uppgift">
+                    <pre><label>Land</label></pre>
+                    <input type="text" pattern="[A-z]" class="input">
+                </div>
+                <div class="uppgift">
+                    <pre><label>Email</label></pre>
+                    <input type="email" class="input">
+                </div>
+                <div class="uppgift">
+                    <pre><label>Telefon</label></pre>
+                    <input type="text" class="input" pattern="[0-9]" minlength="10"
+                    maxlength="11">
+                </div>
+            </form>
+        </div>
+        <div class="kolumn">
+            <form>
+                <div id="betala">
+                    <h3>Betalsätt</h3>
+                    <div class="div1">
+                        <input type="radio" name="betalning" >
+                        <label>Kort<img src="img/credit-card-logos.png" id="kort-foto" width="100" height="25"></label>
+                    </div>
+                    <div class="div1">
+                        <input type="radio" name="betalning" >
+                        <label>Faktura</label>
+                    </div>
+                    <div class="div1">
+                        <input type="radio" name="betalning">
+                        <label>Postförskott</label>
+                    </div>
+                    <div class="div1">
+                        <input type="radio" name="betalning">
+                        <label>Swish<img src="img/swish.jpg" id="swish-foto" width="40" height="25"></label>
+                    </div>
+                </div>
+                <div id="frakta">
+                    <h3>Fraktsätt</h3>
+                    <div class="div1">
+                        <input type="radio" name="frakt">
+                        <label>Standard</label>
+                    </div>
+                    <div class="div1">
+                        <input type="radio" name="frakt">
+                        <label>Express</label>
+                    </div>
+                    <div class="div1">
+                        <input type="radio" name="frakt">
+                        <label>Hemleverans</label>
+                    </div>
+
+                </div>
+                <div class="uppgift" id="kod">
+                    <pre><label>Rabbatkod</label></pre>
+                    <input type="text" minlength="5" maxlength="5" class="input" pattern="[0-9]" title="Koden består av 5 siffror">
+                </div>
+                <div id="skicka">
+                    <input type="submit" id="submit" value="Bekräfta" >
+                </div>
+            </form>
+        </div>
+    </div>
+
+</main>
+
+
+
+</body>
+</html>
