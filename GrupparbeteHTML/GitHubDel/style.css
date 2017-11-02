@@ -3,6 +3,11 @@ body {
     font-family: "Courier New";
 }
 
+.loggan{
+    height: 150px;
+    width: 150px;
+}
+
 .iconSizeBigger {
     height: 80px;
     width: 80px;
@@ -14,6 +19,9 @@ a:link {
 
 a:hover {
     color: blue;
+}
+.liHover{
+
 }
 
 .huv {
@@ -143,11 +151,11 @@ a:hover {
 
 }
 
-@media (max-width: 480px) {
-    tr {
-        display: table-column;
-    }
-}
+/*@media (max-width: 480px) {*/
+    /*tr {*/
+        /*display: table-column;*/
+    /*}*/
+/*}*/
 
 footer {
     display: flex;
@@ -157,8 +165,14 @@ footer {
 }
 
 .leftFooter {
-    width: 15%;
-    padding-left: 7%;
+    width: 6%;
+    height: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 4%;
+    padding-right: 2%;
+    background-color: gainsboro;
+    border: double;
 }
 
 .footerRight {
@@ -193,16 +207,23 @@ footer {
     flex-direction: row;
 }
 
-/*.upperRightContactImage{*/
-    /*display: inline;*/
-/*}*/
 
 .aboutPaddingRight {
     padding-right: 2%;
 }
 
 .contactPaddingLeft{
-    padding-right: 10%;
+    margin-right:8%;
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-top: 3%;
+    background-color: gainsboro;
+    border: double;
+    height:5%;
+}
+
+.logoPaddingRight{
+    padding-left: 5%;
 }
 
 .imgSalePaddingLeft {
@@ -211,8 +232,8 @@ footer {
     height: 100%;
 }
 
-imageSalePaddingRight {
-    padding-right: 0%;
+.imgSalePaddingRight {
+    padding-right:2%;
     width: 100%;
     height: 100%;
 }
@@ -276,7 +297,7 @@ imageSalePaddingRight {
     }
 
     a:link {
-        color: black;
+        color: green;
     }
 
     a:hover {
@@ -306,6 +327,22 @@ imageSalePaddingRight {
             width: 100%;
             height: 50px;
         }
+        .cartSize{
+            height: 100%;
+            width: 20%;
+        }
+
+        .flexBoxImage{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
 
 }
@@ -318,7 +355,7 @@ imageSalePaddingRight {
 
 #produktsida ul {
     list-style-type: none;
-
+    padding: 0;
 }
 
 #produktsida {
@@ -332,6 +369,7 @@ imageSalePaddingRight {
     display: inline-block;
     padding: 10px 20px;
 
+    width:100%;
 }
 
 #varor figure {
@@ -417,10 +455,6 @@ button {
     border-color: black;
 }
 
-.cartSize {
-    height: 80px;
-    width: 80px;
-}
 
 @media (max-width: 768px) {
     .rad {
