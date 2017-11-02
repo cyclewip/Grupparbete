@@ -81,6 +81,15 @@ body, html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    font-family:"Courier New";
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: blue;
 }
 
 .cartSize {
