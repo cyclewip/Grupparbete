@@ -178,6 +178,10 @@ footer {
     height: 300px;
     width: 300px;
 }
+.productPictureSize {
+    height: 400px;
+    width: 300px;
+}
 
 /*//////////////////// FOR PRODUCT PICTURE IN MAIN ////////////////////*/
 .flexBoxImage {
@@ -187,6 +191,12 @@ footer {
     justify-content: space-between;
     flex-direction: row;
 }
+
+/*.flexBoxProducts{*/
+    /*display: flex;*/
+    /**/
+/*}*/
+
 
 .imgSalePaddingLeft {
     padding-left: 2%;
@@ -323,8 +333,7 @@ imageSalePaddingRight {
     margin-top: 10px;
     margin-top: auto;
     border: 2px solid grey;
-    height: 150px;
-    width: 150px;
+
 }
 
 #produksida, .varor h1 {
