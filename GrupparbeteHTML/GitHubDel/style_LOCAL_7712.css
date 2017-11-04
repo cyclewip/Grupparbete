@@ -1,17 +1,13 @@
 
 
 /*/////////////////// KOD FÖR STARTMENYN*/
-
-body {
-    font-family: "Courier New";
-
+body{
+    font-family:"Courier New";
 }
-
 .iconSizeBigger {
     height: 80px;
     width: 80px;
 }
-
 a:link {
     color: black;
 }
@@ -20,41 +16,45 @@ a:hover {
     color: blue;
 }
 
-.huv {
-    width: 20%;
-    display: inline-table;
-    text-align: center;
+.huv{
+  width: 20%;
+  display: inline-table;
+  text-align: center;
 }
 
-.kontakt {
-    list-style: none;
+.kontakt{
+  list-style: none;
+}
+.f1{
+  display: run-in;
 }
 
-.f1 {
-    display: run-in;
+.blog{
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+.blog p{
+  text-align: left;
+}
+.blog h3{
+  margin-bottom: 0;
+}
+.blog h6{
+  margin-top: 0;
+  margin-bottom: auto;
+}
+.blog img{
+  border: 5px solid #fff;
 }
 
-.blog {
-    text-align: center;
-    width: 60%;
-    margin: auto;
+
+section:nth-child(2) {
+
 }
 
-.blog p {
-    text-align: left;
-}
+section:first-child {
 
-.blog h3 {
-    margin-bottom: 0;
-}
-
-.blog h6 {
-    margin-top: 0;
-    margin-bottom: auto;
-}
-
-.blog img {
-    border: 5px solid #fff;
 }
 
 .spaces200px {
@@ -79,13 +79,12 @@ body, html {
 }
 
 
-
 .bg {
     background: url(img/background.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    font-family: "Courier New";
+    font-family:"Courier New";
 }
 
 a:link {
@@ -125,6 +124,9 @@ a:hover {
     width: 80px;
 }
 
+
+
+
 .tableWidth1 {
     width: 60%;
 }
@@ -149,7 +151,9 @@ a:hover {
 
 }
 
-@media (max-width: 480px) {
+
+
+@media(max-width: 480px) {
     tr {
         display: table-column;
     }
@@ -162,85 +166,44 @@ footer {
     padding-top: 50px;
 }
 
-.allFooter {
-    width: 33.5%;
-    height: 100%;
-}
-.middleFooter{
-    padding-left:13%;
-}
-
 .leftFooter{
-    width: 18%;
-    margin-right: 6%;
-    margin-left:6%;
-    padding-left: 6%;
-    height: 20%;
-    background-color: gainsboro;
-    border: double;
+    width:30%;
+
 }
-
-
+.footerRight {
+    width:30%;
+}
 
 .middle {
     right: 50%;
 }
 
+
+
 .pictureSize {
     height: 200px;
     width: 200px;
 }
-
-.mainPictureSize {
+.mainPictureSize{
     height: 300px;
     width: 300px;
 }
 
-.productPictureSize {
-    height: 400px;
-    width:300px;
-}
 
 /*//////////////////// FOR PRODUCT PICTURE IN MAIN ////////////////////*/
 .flexBoxImage {
-    padding-top: 2%;
-    width: 100%;
+    padding-top: 2% ;
+    width:100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
-    text-align: center;
-    
 }
-.lit{
-    padding-right:15px;
-    padding-left: 15px;
-}
-
-/*.upperRightContactImage{*/
-    /*display: inline;*/
-/*}*/
-
-.aboutPaddingRight {
-    padding-right: 2%;
-}
-
-.contactPaddingLeft{
-    margin-right:5%;
-    padding-right: 3%;
-    padding-left: 3%;
-    background-color: gainsboro;
-    border: double;
-    height: 5%;
-
-}
-
 .imgSalePaddingLeft {
     padding-left: 2%;
     width: 100%;
     height: 100%;
 }
-
-imageSalePaddingRight {
+imageSalePaddingRight{
     padding-right: 0%;
     width: 100%;
     height: 100%;
@@ -254,10 +217,6 @@ imageSalePaddingRight {
 
 .text20px {
     font-size: 20px;
-}
-
-.text40px {
-    font-size: 40px;
 }
 
 .textBox {
@@ -275,205 +234,63 @@ imageSalePaddingRight {
 
 .buttonBox {
 
-
     background-color: gainsboro;
 
-
-
 }
 
-@media (max-width: 768px) {
-    .buttonText {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tableWidth1 {
-        width: 100%;
-    }
-
-    .tableWidth2 {
-        width: 100%;
-    }
-
-    .tableWidth3 {
-        width: 100%;
-        height: 60px;
-    }
-
-    .kontakt li {
-        display: inline;
-        width: auto;
-        border: none;
-
-    }
-
-    a:link {
-        color: black;
-    }
-
-    a:hover {
-        color: blue;
-    }
-
-    .wholePageFont {
-        font-family: "Courier New";
-    }
-
-    /*////////////////////// CHANGE HEADER TO FLEXIBLE /////////////////*/
-    @media (max-width: 768px) {
-        .buttonText {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .tableWidth1 {
-            width: 100%;
-        }
-
-        .tableWidth2 {
-            width: 100%;
-        }
-
-        .tableWidth3 {
-            width: 100%;
-            height: 50px;
-        }
-        #produktsida ul li{
-            width: 100%;
-
-
-        }
-
-        #produktsida ul {
-            padding: 0;
-
-        }
-    }
-
-}
-
-/*/////////////////////////////// HENRIK*/
-
-#produktsida section ul li {
-    padding: 0;
-}
-
-#produktsida ul {
-    list-style-type: none;
-
-}
-
-#produktsida {
-    text-align: center;
-
-}
-
-#produktsida ul li {
-    background-color: grey;
-    padding: 10px 30px;
-    display: inline-block;
-    padding: 10px 20px;
-
-}
-
-#varor figure {
-    background-color: #F4FAFA;
-    display: inline-block;
-    padding: 10px 30px;
-    margin-top: 10px;
-    margin-top: auto;
-    border: 2px solid grey;
-
-}
-
-#produksida, .varor h1 {
-    text-align: center;
-
-}
-#produktsida li:hover {
-    background-color: white;
-}
-.tableWidth1:hover {
-    background-color: white;
-}
-.buttonBox:hover {
-    background-color: white;
-}
-
-button {
-    font-size: 16px;
-}
-
-/*/////////////////////////////// HENRIK*/
-
-/*/////////////////////////////// LIDIA*/
 .rad:after {
     content: "";
     display: table;
     clear: both;
 }
-
 .kolumn {
     float: left;
     width: 50%;
     text-align: center;
     padding-bottom: 50px;
 }
-
-.uppgift {
+.uppgift{
     font-size: 15px;
 }
-
-#betala {
+#betala{
     text-align: left;
     padding-bottom: 30px;
 }
-
-#frakta {
+#frakta{
     text-align: left;
     padding-bottom: 30px;
 }
-
-#skicka {
+#skicka{
     padding-top: 30px;
     text-align: left;
 }
-
-#kod {
+#kod{
     text-align: left;
     padding-bottom: 20px;
 }
-
-#kort-foto {
+#kort-foto{
     padding-left: 20px;
 }
-
-#swish-foto {
+#swish-foto{
     padding-left: 20px;
 }
-
-.div1 {
+.div1{
     padding-bottom: 10px;
     padding-top: 5px;
     font-size: 16px;
 }
-
-.input {
+.input{
     border-color: black;
 }
-
-#submit {
+#submit{
     width: 100px;
     height: 35px;
     border-color: black;
 }
-
 .cartSize {
     height: 80px;
     width: 80px;
 }
-
 @media (max-width: 768px) {
     .rad {
         width: 100%;
@@ -496,7 +313,6 @@ button {
     }
 
     .buttonText {
-
         display: flex;
         flex-direction: column;
     }
@@ -506,20 +322,6 @@ button {
 
         background-color: gainsboro;
 
-    }
-    .cartSize{
-        height: 100%;
-        width: 20%;
-    }
-    .flexBoxImage{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 }
     @media (max-width: 768px) {
@@ -571,9 +373,6 @@ a:hover {
         float:left;
         width: 100%;
 
-    }
-    #produksida ul{
-        padding: 0;
     }
     .buttonText {
         display: flex;
@@ -638,17 +437,4 @@ a:hover {
 }
 button {
     font-size: 16px;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    .tableWidth1 {
-        width: 100%;
-
-        background-color: gainsboro;
-
-    }
-
-
-/*/////////////////////////////// LIDIA*/
+}
