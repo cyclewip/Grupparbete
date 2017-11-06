@@ -291,6 +291,7 @@ footer {
     height: 50px;
     font-size: 12pt;
     width: 350px;
+    background: url("img/searchicon.png") no-repeat right
 }
 
 .textBackgroundBox {
@@ -319,6 +320,15 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    .buttonTextWidth{
+        width:100%;
+    }
+    .contactCenter{
+        display: flex;
+        flex-direction: row;
+        margin-right:100%;
+    }
 
     .buttonText1{
         display: flex;
