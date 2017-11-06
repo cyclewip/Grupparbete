@@ -16,6 +16,12 @@ a:link {
 background-color: white;
 }
 
+.textBox {
+
+background: url("img/search.png") no-repeat right
+
+}
+
 a:hover {
     color: blue;
 }
@@ -125,6 +131,10 @@ a:hover {
 
 .tableWidth1 {
     width: 60%;
+}
+
+.tableWidth1:hover {
+background-color: white;
 }
 
 .tableWidth2 {
@@ -253,6 +263,10 @@ imageSalePaddingRight {
 
 }
 
+
+.buttonBox:hover {
+background-color: white;
+}
 @media (max-width: 768px) {
     #produktsida ul li{
     width: 100%;
@@ -272,6 +286,7 @@ imageSalePaddingRight {
     .tableWidth1 {
         width: 100%;
     }
+
 
     .tableWidth2 {
         width: 100%;
