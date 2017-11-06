@@ -166,14 +166,33 @@ footer {
 
 
 .leftFooter {
-    width: 6%;
-    height: 15%;
-    margin-left: 3%;
-    margin-right: 3%;
-    padding-left: 4%;
-    padding-right: 2%;
+    /*width: 6%;*/
+    /*height: 15%;*/
+    /*margin-left: 3%;*/
+    /*margin-right: 3%;*/
+    /*padding-left: 4%;*/
+    /*padding-right: 2%;*/
+    /*background-color: gainsboro;*/
+    /*border: double;*/
+
+    width: 18%;
+    margin-right: 6%;
+    margin-left:6%;
+    padding-left: 6%;
+    height: 20%;
     background-color: gainsboro;
     border: double;
+}
+.contactMargin{
+    margin-left:50%;
+}
+
+.allFooter {
+    width: 33.5%;
+    height: 100%;
+}
+.middleFooter{
+    padding-left:13%;
 }
 
 .footerRight {
@@ -206,6 +225,14 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
+}
+.spaceAround{
+    justify-content: space-around;
+    text-align:center;
+}
+.lit{
+    padding-right:15px;
+    padding-left: 15px;
 }
 
 .contactFlexBox{
@@ -271,6 +298,19 @@ footer {
     background-color: white;
     border: black 2px solid;
     width: 330px;
+}
+
+.buttonBox:hover {
+    background-color: white;
+}
+#produktsida li:hover {
+    background-color: white;
+}
+.tableWidth1:hover {
+    background-color: white;
+}
+.buttonBox:hover {
+    background-color: white;
 }
 
 .buttonBox {
