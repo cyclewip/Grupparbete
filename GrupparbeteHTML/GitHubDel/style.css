@@ -319,6 +319,16 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+    .buttonText1{
+        display: flex;
+        flex-direction: row;
+    }
+    .buttonText1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
     #produktsida ul li{
         width:100%;
     }
