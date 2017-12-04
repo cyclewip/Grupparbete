@@ -278,17 +278,6 @@ footer {
 }
 
 /*//////////////////// FOR PRODUCT PICTURE IN MAIN ////////////////////*/
-.seperate {
-
-}
-.moreInfo {
-
-}
-
-
-.lessInfo {
-
-}
 
 .remove_ {
     text-decoration: none;
@@ -314,19 +303,6 @@ footer {
     background-color: white;
     border: black 2px solid;
     width: 330px;
-}
-
-.flexBoxImage ul {
-    display: none;
-}
-
-.ularea {
-
-}
-
-.productPageButton button {
-    width: 20px;
-    height: 20px;
 }
 
 .buttonBox:hover {
@@ -507,7 +483,7 @@ button {
     font-size: 16px;
     background-color: indianred;
     font-weight: bold;
-    color: green;
+    color:green;
 }
 
 /*/////////////////////////////// HENRIK*/
